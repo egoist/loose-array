@@ -16,9 +16,9 @@ module.exports = function (obj) {
 
 	// Detect other array-like object
 	var isArray = false
-	Array.prototype.forEach.call(obj, function () {
+	Array.prototype.every.call(obj, function () {
 		isArray = true
-		return
+		return false
 	})
 
 	return isArray
