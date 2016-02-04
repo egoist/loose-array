@@ -13,8 +13,8 @@ $ npm install --save loose-array
 ```js
 const looseArray = require('loose-array')
 
-looseArray([]) 																// => true
-looseArray(arguments) 												// => true
+looseArray([])                                // => true
+looseArray(arguments)                         // => true
 looseArray(document.querySelectorAll('div'))  // => true
 ```
 
