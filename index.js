@@ -9,6 +9,11 @@ module.exports = function (obj) {
 		throw new TypeError('Expected an object')
 	}
 
+	// Whatever array or array-like thing have the `length` property
+	if (typeof obj.length === 'undefined') {
+		return false
+	}
+
 	// A real array or Node list
 	if (isType(obj, 'Array') || isType(obj, 'NodeList')) {
 		return true
