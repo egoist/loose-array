@@ -1,6 +1,6 @@
 {
   "name": "loose-array",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Check if is an Array or Array-like Object",
   "license": "MIT",
   "repository": "egoist/loose-array",
